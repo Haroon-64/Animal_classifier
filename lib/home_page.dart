@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
         detectImage(File(_image!.path));
       }
     } catch (e) {
-      print('Error selecting image: $e');
+      debugPrint('Error selecting image: $e');
     }
   }
 
